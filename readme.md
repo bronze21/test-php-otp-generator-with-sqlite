@@ -1,11 +1,14 @@
 # TEST API PHP GENERATE & VERIFY TOKEN
 
+### Initialize Sqlite DB
+```bash
+php init_db.php
+```
 ### Running Development Server
 ```bash
 php -S 0.0.0.0:8000
 ```
 <br>
-
 
 ### GENERATE TOKEN
 ```bash
@@ -18,7 +21,6 @@ Body Data
 	"user_id": "<random_user_id>"
 }
 ```
-
 <br>
 
 ### VERIFY TOKEN
